@@ -23,5 +23,5 @@ def printer(names)
     
   end
   end
-  binding.pry
+  # binding.pry
 end
