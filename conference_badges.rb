@@ -17,7 +17,7 @@ end
 
 def printer(names)
   batch_badge_creator(names)
-  binding.pry
+  names.each do |name|
   assign_rooms(names)
   names.each do |names|
   end
