@@ -16,8 +16,7 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  batch_badge_creator
-  
+  batch_badge_creator(names)
   binding.pry
   
 end
