@@ -19,7 +19,7 @@ def printer(names)
   batch_badge_creator(names)
   names.each do |name|
   assign_rooms(names)
-  names.each do |names|
+  names.each do |index|
   end
   binding.pry
 end
