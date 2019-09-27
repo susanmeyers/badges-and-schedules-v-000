@@ -20,6 +20,7 @@ def printer(names)
   names.each do |name|
   assign_rooms(names)
   names.each_with_index do |name, index|
+    
   end
   end
   binding.pry
