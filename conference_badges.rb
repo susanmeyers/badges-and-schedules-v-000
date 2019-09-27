@@ -15,14 +15,26 @@ def assign_rooms(names)
   end
 end
 
-def printer(names)
-  batch_badge_creator(names)
-  names.each do |name|
-    "Hello, my name is #{name}."
-  assign_rooms(names)
-  names.each_with_index do |name, index|
+def printer(attendees)
+  batch_badge_creator(attendees).each do |attendee|
+    puts (attendee)
+   
+  assign_rooms(attendees).each do |attendee|
+    puts (attendee)
+    print attendee
+  
     
   end
   end
   # binding.pry
+end
+
+def printer(attendees)
+  batch_badge_creator(attendees).each do |attendee|
+    puts (attendee)
+  end
+  assign_rooms(attendees).each do |attendee|
+    puts (attendee)
+    print attendee
+  end
 end
