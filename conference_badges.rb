@@ -21,5 +21,6 @@ def printer(names)
   assign_rooms(names)
   names.each do |index|
   end
+  end
   binding.pry
 end
