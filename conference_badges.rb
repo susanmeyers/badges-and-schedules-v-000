@@ -18,6 +18,7 @@ end
 def printer(names)
   batch_badge_creator(names)
   names.each do |name|
+    "Hello, my name is #{name}."
   assign_rooms(names)
   names.each_with_index do |name, index|
     
